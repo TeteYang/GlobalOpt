@@ -68,7 +68,7 @@
         max-height: none;
     }
     body .tbl-info5{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .card{
         margin-top: 0.5rem;
@@ -122,7 +122,8 @@
         max-height: none;
     }
     body .tbl-info8__grid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
     }
     .tbl-info8__text{
         font-size: 14px;
@@ -131,7 +132,8 @@
         font-size: 17px;
     }
     body .tbl-info8__grid_three{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
         .tbl-info__info8{
             padding: 5px 0 10px 0;
         }
@@ -141,5 +143,8 @@
     }
     body .section10{
         height: none;
+    }
+    .carousel-item__text{
+        font-size: 14px;
     }
 }
