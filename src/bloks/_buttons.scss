@@ -1,0 +1,31 @@
+.btn-small{
+    width: 173px;
+    height: 45px;
+    background-color: #ec644b;
+    border-radius: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    &_height{
+        height: 40px;
+    }
+    &_width{
+        width: 182px
+    }
+}
+.btn-big{
+    width: 230px;
+    height: 57px;
+    margin-top: 39px;
+    background-color: #ec644b;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.35px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    &_margin{
+        margin: 2vh;
+    }
+}

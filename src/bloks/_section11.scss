@@ -1,0 +1,49 @@
+.section11{
+    height: 500px;
+}
+.logo-bar_location{
+    display: flex;
+    padding-top: 35px; 
+    justify-content: space-between;
+}
+.logo-bar{
+    color: #ffffff;
+    &__logo_location{
+        margin-right: 55px;
+    }
+    &__bar_location{
+        display: flex;
+        margin: 37px 0 0 0;
+    }
+    &__text{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &__bar{
+        font-size: 15px;
+        font-weight: 400;
+        .icon-bar{
+            height: 23px;
+            margin: 0 10px;
+        }
+    }
+    &__tel_location{
+        margin-top: 30px;
+    }
+    &__tel{
+        display: flex;
+        &_form{
+            margin-right: 19px;
+        }
+        &_text{
+            text-align: right;
+        }
+        &_number{
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}

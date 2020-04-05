@@ -1,0 +1,87 @@
+.section1{
+    min-height: 80vh;
+    background: url("../img/bg.png") no-repeat;
+    padding: 0px 0 3vh 0;
+.logo-bar_location{
+    display: flex;
+    padding-top: 23px; 
+    justify-content: space-between;
+}
+.logo-bar{
+    color: #ffffff;
+    &__logo_location{
+        margin-right: 55px;
+    }
+    &__bar_location{
+        display: flex;
+        margin: 37px 0 0 0;
+    }
+    &__bar{
+        font-size: 15px;
+        font-weight: 400;
+        .icon-bar{
+            height: 23px;
+            margin: 0 10px;
+        }
+    }
+    &__tel_location{
+        margin-top: 30px;
+    }
+    &__tel{
+        display: flex;
+        &_form{
+            margin-right: 19px;
+        }
+        &_text{
+            text-align: right;
+        }
+        &_number{
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+.nav-link_style{
+    font-size: 20px;
+    text-align: center;
+}
+.info{
+    line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+.paragraph-big-orange{
+    text-align: center;
+    color: #ec644b;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph-big-white{
+    text-align: center;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.icon-line{
+    margin-top: 25px;
+    text-align: center;
+}
+.cooperation{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+}}

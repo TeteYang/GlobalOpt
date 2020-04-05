@@ -1,0 +1,17 @@
+.section2{
+    min-height: 70vh;
+    background-color: white;
+    background-color: #f3f3f3;
+    padding: 0 0 5vh 0;
+    }
+    .section2 .tbl-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        &__info{
+            display: flex;
+        }
+        &__img{
+                margin: 10px 15px 0 15px;
+            }
+        }

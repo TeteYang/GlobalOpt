@@ -1,0 +1,19 @@
+.layout-section1{
+    max-width: 90vw;
+    margin: 0 auto;
+    &_padding{
+        padding: 0 0 5vh 0;
+    }
+}
+
+.layout-section2{
+    max-width: 80vw;
+    margin: 0 auto;
+    &_pt{
+        padding-top: 2.5em;
+    }
+}
+.layout-section4{
+    max-width: 60vw;
+    margin: 0 auto;
+}

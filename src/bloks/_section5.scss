@@ -1,0 +1,36 @@
+.section5{
+    max-height: 70vh;
+    hr{
+        width: 20vw;
+        background: #ed745d;
+    }
+}
+.tbl-info5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.form{
+    margin: 10vh 0 0 0;
+}
+.card{
+    &__header{
+        font-size: 25px;
+        font-weight: 600;
+        color: #ed745d;
+    }
+    &__grid{
+        display: grid;
+        justify-content: center;
+    }
+    &__card{
+        text-transform: uppercase;
+        font-weight: 500;
+}
+}
+.card-body_padding{
+    padding: 0;
+    margin: 10px;
+}
+.form-control_radius{
+    border-radius: 20px;
+}
