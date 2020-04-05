@@ -1,7 +1,6 @@
 .section1{
-    min-height: 80vh;
     background: url("../img/bg.png") no-repeat;
-    padding: 0px 0 3vh 0;
+    padding: 0;
 .logo-bar_location{
     display: flex;
     padding-top: 23px; 
@@ -45,7 +44,7 @@
     }
 }
 .nav-link_style{
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
 .info{
@@ -58,7 +57,7 @@
 .paragraph-big-orange{
     text-align: center;
     color: #ec644b;
-    font-size: 72px;
+    font-size: 66px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -74,14 +73,16 @@
     text-align: center;
 }
 .cooperation{
-    margin-top: 27px;
     display: flex;
     justify-content: space-between;
     max-width: 75vw;
-    margin: 0 auto;
+    margin: 4vh auto;
+    img{
+        width: 17vw;
+    }
 }
+
 .btn{
     display: flex;
     justify-content: center;
-
 }}

@@ -213,9 +213,8 @@
 }
 
 .section1 {
-  min-height: 80vh;
   background: url("../img/bg.png") no-repeat;
-  padding: 0px 0 3vh 0;
+  padding: 0;
 }
 
 .section1 .logo-bar_location {
@@ -280,7 +279,7 @@
 }
 
 .section1 .nav-link_style {
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -295,7 +294,7 @@
 .section1 .paragraph-big-orange {
   text-align: center;
   color: #ec644b;
-  font-size: 72px;
+  font-size: 66px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -314,7 +313,6 @@
 }
 
 .section1 .cooperation {
-  margin-top: 27px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,7 +320,11 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 75vw;
-  margin: 0 auto;
+  margin: 4vh auto;
+}
+
+.section1 .cooperation img {
+  width: 17vw;
 }
 
 .section1 .btn {
@@ -410,7 +412,6 @@
 }
 
 .section4 {
-  max-height: 40vh;
   background: url("../img/bg3.png") no-repeat;
   padding: 0 0 10vh 0;
 }
@@ -422,10 +423,6 @@
 
 .tbl-info4__box .articles-header {
   color: white;
-}
-
-.section5 {
-  max-height: 70vh;
 }
 
 .section5 hr {
@@ -473,7 +470,6 @@
 }
 
 .section6 {
-  max-height: 70vh;
   margin: 0 0 10vh 0;
 }
 
@@ -499,13 +495,11 @@
 }
 
 .section7 {
-  max-height: 40vh;
   background: url("../img/bg5.png") no-repeat;
   padding: 0 0 10vh 0;
 }
 
 .section8 {
-  max-height: 70vh;
   background-color: #f3f3f3;
   padding: 0 0 10vh 0;
 }
@@ -658,7 +652,6 @@
 .btn-big {
   width: 230px;
   height: 57px;
-  margin-top: 39px;
   background-color: #ec644b;
   font-size: 15px;
   font-weight: 500;
@@ -688,7 +681,7 @@
 }
 
 .layout-section2_pt {
-  padding-top: 2.5em;
+  padding: 2.5em;
 }
 
 .layout-section4 {
