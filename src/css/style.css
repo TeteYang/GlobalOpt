@@ -1,3 +1,11 @@
+button:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  background-color: #ec644b;
+}
+
 @font-face {
   font-family: 'Roboto Light';
   src: url("Roboto-Light.eot");
@@ -14,14 +22,26 @@
   font-style: normal;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 576px) {
+  body .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .navbar .navbar-brand {
+    margin-right: 0;
+  }
+  body .navbar .logo-bar__logo img {
+    width: 85%;
+  }
   .logo-bar {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .logo-bar__tel {
+  body .section1 .logo-bar__tel {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -33,6 +53,9 @@
         -ms-flex-align: center;
             align-items: center;
     margin: 0;
+  }
+  .navbar-toggler {
+    margin: 10px auto 0 37vw;
   }
   .nav-link_none {
     display: none;
@@ -67,11 +90,21 @@
     height: auto;
   }
   .section3 .paragraph-black {
-    font-size: 24px;
+    font-size: 20px;
   }
   body .tbl-info2__cards {
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
+  }
+  body .layout-section2_pt {
+    padding: 1.5em;
+  }
+  body .tbl-info2__articles {
+    font-size: 15px;
+  }
+  body .tbl-info2__text {
+    font-size: 11px;
+    text-align: justify;
   }
   body .section3 .tbl-info2__info {
     -ms-grid-columns: 1fr;
@@ -122,12 +155,11 @@
     font-size: 20px;
   }
   body .tbl-info6__form {
-    max-width: 70vw;
     margin: 5vh auto 0 auto;
-    height: 35vh;
+    height: 50vh;
   }
   body .tbl-info6__icon {
-    right: 40%;
+    right: 42%;
     bottom: 86%;
   }
   body .tbl-info6__icon img {
@@ -142,8 +174,11 @@
     margin: 0 auto;
   }
   body .tbl-info6__icon_btnbottom {
-    top: 32vh;
-    left: 20vw;
+    top: 45vh;
+    left: 24vw;
+  }
+  .section6 .paragraph-black {
+    margin: 0 0 45px 0;
   }
   .section8 .paragraph-black {
     font-size: 20px;
@@ -178,6 +213,25 @@
   }
   .carousel-item__text {
     font-size: 14px;
+  }
+  footer .logo-bar {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .logo-bar__bar {
+    margin: 20px 0 10px 0;
+  }
+  footer .logo-bar__tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .logo-bar__tel_text {
+    text-align: center;
+  }
+  footer .btn-small {
+    margin: 10px 0;
   }
 }
 
@@ -236,10 +290,6 @@
   color: #ffffff;
 }
 
-.section1 .logo-bar__logo_location {
-  margin-right: 55px;
-}
-
 .section1 .logo-bar__bar_location {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,14 +307,11 @@
   margin: 0 10px;
 }
 
-.section1 .logo-bar__tel_location {
-  margin-top: 30px;
-}
-
 .section1 .logo-bar__tel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 5vh 0 0 0;
 }
 
 .section1 .logo-bar__tel_form {
@@ -367,7 +414,6 @@
 }
 
 .section3 {
-  max-height: 95vh;
   margin: 0 0 5vh 0;
 }
 
@@ -388,32 +434,35 @@
 .tbl-info2__cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   margin: 20px 0;
 }
 
 .tbl-info2__photo {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
 }
 
 .tbl-info2__photo img {
-  width: 95%;
+  width: 100%;
+}
+
+.tbl-info2__text {
+  height: 31vh;
+  font-size: 15px;
 }
 
 .tbl-info2__info {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 10px 0 0;
 }
 
 .tbl-info2__articles {
   text-align: center;
   margin: 10px 0 5px 0;
+  font-size: 19px;
 }
 
 .section4 {
@@ -603,13 +652,6 @@
   margin-right: 55px;
 }
 
-.logo-bar__bar_location {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 37px 0 0 0;
-}
-
 .logo-bar__text {
   font-size: 16px;
   font-weight: 500;
@@ -618,6 +660,7 @@
 .logo-bar__bar {
   font-size: 15px;
   font-weight: 400;
+  margin: 30px 0 10px 0;
 }
 
 .logo-bar__bar .icon-bar {
@@ -633,6 +676,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 20px 0 0 0;
 }
 
 .logo-bar__tel_form {

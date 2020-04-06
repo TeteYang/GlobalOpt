@@ -1,5 +1,4 @@
 .section3{
-    max-height: 95vh;
     margin: 0 0 5vh 0;
     hr{
         width: 20vw;
@@ -18,22 +17,26 @@
     }
     &__cards{
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         margin: 20px 0;
     }
     &__photo{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         img{
-            width: 95%;
+            width: 100%;
         }
+    }
+    &__text{
+        height: 31vh;
+        font-size: 15px;
     }
     &__info{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 10px 0 0;
     }
     &__articles{
         text-align: center;
         margin: 10px 0 5px 0;
+        font-size: 19px;
     }
 }

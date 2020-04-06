@@ -8,9 +8,6 @@
 }
 .logo-bar{
     color: #ffffff;
-    &__logo_location{
-        margin-right: 55px;
-    }
     &__bar_location{
         display: flex;
         margin: 37px 0 0 0;
@@ -23,11 +20,9 @@
             margin: 0 10px;
         }
     }
-    &__tel_location{
-        margin-top: 30px;
-    }
     &__tel{
         display: flex;
+        margin: 5vh 0 0 0;
         &_form{
             margin-right: 19px;
         }
