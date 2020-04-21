@@ -25,6 +25,7 @@
         text-transform: uppercase;
         font-weight: 500;
 }
+
 }
 .card-body_padding{
     padding: 0;
@@ -32,4 +33,7 @@
 }
 .form-control_radius{
     border-radius: 20px;
+}
+.card-text:last-child{
+    margin-bottom: 35px;
 }

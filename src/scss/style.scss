@@ -1,0 +1,25 @@
+button:focus {
+    outline: none;
+}
+.navbar-toggler{
+    background-color: #ec644b;
+}
+@import "./base/fonts";
+@import "./base/media";
+@import "./base/_mixins";
+@import "./base/_variables";
+@import "./bloks/paragraph";
+@import "./bloks/_articles";
+@import "./bloks/_section1";
+@import "./bloks/_section2";
+@import "./bloks/_section3";
+@import "./bloks/_section4";
+@import "./bloks/_section5";
+@import "./bloks/_section6";
+@import "./bloks/_section7";
+@import "./bloks/_section8";
+@import "./bloks/_section9";
+@import "./bloks/_section10";
+@import "./bloks/_section11";
+@import "./bloks/buttons";
+@import "./bloks/layout";

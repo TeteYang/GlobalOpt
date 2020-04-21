@@ -7,6 +7,9 @@
     justify-content: space-between;
 }
 .logo-bar{
+    &__logo img{
+        width: 75px;
+    }
     color: #ffffff;
     &__bar_location{
         display: flex;
@@ -81,3 +84,6 @@
     display: flex;
     justify-content: center;
 }}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0 5px;
+}

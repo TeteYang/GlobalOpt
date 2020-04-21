@@ -10,14 +10,17 @@
 }
 &__icon{
     position: absolute;
-    right: 44%;
-    bottom: 73%;
+    right: 36vw;
+    bottom: 17vh;
     z-index: 350;
     background-color: white;
     &_btnbottom{
         position: absolute;
         top: 21vh;
         left: 34vw;
+    }
+    img{
+        width: 80px;
     }
 }
 }

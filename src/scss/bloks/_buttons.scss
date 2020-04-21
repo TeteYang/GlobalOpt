@@ -8,9 +8,13 @@
     border: none;
     &_height{
         height: 40px;
+        position: absolute;
+        bottom: 2vh;
+        left: 2vw;
     }
     &_width{
-        width: 182px
+        width: 182px;
+        height: 40px;
     }
 }
 .btn-big{
