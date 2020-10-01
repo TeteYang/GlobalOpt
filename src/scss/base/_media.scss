@@ -1,6 +1,40 @@
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 812px) {
+    .tbl-info6 .tbl-info6__form .tbl-info6__icon_btnbottom {
+        left: 7vw !important;
+        top: 51vh !important;
+    }
+    .tbl-info6 .tbl-info6__form .tbl-info6__icon {
+        right: 27vw !important;
+        bottom: 49vh !important;
+    }
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .form .form-control {
+        height: calc(1.5em + 0.75rem + 14px);
+    }
+}
+
+@media only screen
+and (min-device-width : 411px)
+and (max-device-width : 731px) {
+    .tbl-info6 .tbl-info6__form .tbl-info6__icon {
+        right: 26vw !important;
+        bottom: 48vh !important;
+    }
+    .tbl-info6 .tbl-info6__form .tbl-info6__icon_btnbottom {
+        left: 10vw !important;
+        top: 51vh !important;
+    }
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 768px) {
     .tbl-info__info .tbl-info__text {
         font-size: 20px;
     }
@@ -14,7 +48,7 @@ and (max-device-width : 812px) {
         height: 50vh !important;
     }
     .card .card-body .btn-small_height {
-        left: 20vw;
+        left: 4vw;
         width: 210px;
         height: 50px;
         font-size: 21px;
@@ -28,31 +62,25 @@ and (max-device-width : 812px) {
     .card-body .card__card {
         font-size: 24px;
     }
-    .section6 .tbl-info6 .tbl-info6__form {
-        height: 50vh;
-    }
     .tbl-info6 .tbl-info6__form .tbl-info6__icon_btnbottom {
-        left: 14vw;
-        top: 46vh;
+        left: 24vw;
+        top: 21vh;
     }
-    .form .form-control {
-        height: calc(1.5em + 1.75rem + 2px);
+    .form {
+        padding: 0 5px;
     }
-    .tbl-info6__icon_btnbottom .btn-small_width {
+    .tbl-info6__form .tbl-info6__icon_btnbottom .btn-small_width {
         padding: 10px 0;
-        width: 230px;
+        width: 245px;
         height: 50px;
         font-size: 21px;
     }
     .tbl-info6 .tbl-info6__form .tbl-info6__icon {
-        right: 27vw;
-        bottom: 44vh;
-    }
-    body .section9  {
-        height: 60vh !important;
+        right: 33vw;
+        bottom: 20vh;
     }
     body .section10 {
-        height: 70vh !important;
+        height: 40vh;
 
     }
 }
@@ -78,7 +106,7 @@ and (max-device-width : 1024px) {
         margin: 8vh 0 0 0;
     }
     .tbl-info6__form .tbl-info6__icon {
-        right: 34vw;
+        right: 36vw;
         bottom: 20vh;
     }
     .section6 .tbl-info6__icon img {
@@ -96,14 +124,14 @@ and (max-device-width : 1024px) {
         height: 48px;
     }
     .tbl-info6__form .tbl-info6__icon_btnbottom {
-        left: 27vw;
+        left: 30vw;
     }
     .layout-section2 .tbl-info5 {
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
     }
     .card-body .btn-small_height {
-        left: 6vw
+        left: 14vw
     }
     .card .card-body {
         margin: 15px 10px;
@@ -137,7 +165,7 @@ and (max-device-width : 1024px) {
 and (min-device-width : 1024px)
 and (max-device-width : 1366px) {
     body .section3 {
-        height: 55vh;
+        height: 65vh;
     }
     body .section4 {
         padding: 0;
@@ -156,17 +184,17 @@ and (max-device-width : 1366px) {
         margin: 15px 10px;
     }
     .section6 .tbl-info6__form {
-        margin: 5vh 0 0 0;
+        margin: 11vh 0 0 0;
     }
     .section6 .form .form-row {
         height: 15vh;
         padding: 0 15px;
     }
     .form .form-control {
-        height: calc(1.5em + 1.75rem + 2px);
+        height: calc(1.5em + 0.75rem + 2px);
     }
     .section6 .tbl-info6__icon_btnbottom {
-        top: 17vh;
+        top: 21vh;
         left: 31vw;
     }
     .tbl-info6__icon_btnbottom .btn-small_width {
@@ -175,7 +203,7 @@ and (max-device-width : 1366px) {
         height: 48px;
     }
     .section6 .tbl-info6__icon img {
-        width: 85px;
+        width: 80px;
     }
     body .section7 {
         padding: 0;
@@ -184,12 +212,15 @@ and (max-device-width : 1366px) {
         padding: 0 0 15px 0;
     }
     .section10 .form .form-row {
-        height: 5vh;
+        height: 6vh;
     }
 }
 @media only screen
 and (min-device-width : 280px)
 and (max-device-width : 653px) {
+    .form .form-control {
+        height: calc(1.5em + 1.75rem + 10px);
+    }
     .section1 .icon-line {
         display: none;
     }
@@ -277,6 +308,9 @@ and (max-device-width : 653px) {
     .section5 .articles-header {
         max-width: 95vw;
     }
+    .tbl-info5 .card .card-body .btn-small_height {
+        left: 15vw;
+    }
     .layout-section2 .tbl-info5 {
         grid-template-columns: 1fr;
         grid-gap: 25px;
@@ -347,14 +381,16 @@ and (max-device-width : 653px) {
     }
     body .section9 {
         max-height: none;
-        height: 80vh;
     }
     .section9 .carousel-item__text {
         font-size: 19px;
     }
     body .section10 {
         background: black;
-        height: 80vh;
+        height: 95vh;
+    }
+    .layout-section2 .form-layout {
+        height: 86vh;
     }
     .section10 .layout-section2_pt {
         padding: 20px 0 0 0;
@@ -369,9 +405,11 @@ and (max-device-width : 653px) {
     .section10 .layout-section4 {
         width: 80vw;
         max-width: none;
+        padding: 20px 0 0 0;
     }
     .form-layout .form {
-        padding: 0 5px;
+        padding: 5px 5px;
+        margin: 4vh 0 0 0;
     }
     .section10 .btn {
         padding: 0px;
@@ -396,6 +434,9 @@ and (max-device-width : 653px) {
     .logo-bar__tel_btn .btn-small {
         width: 210px;
         height: 50px;
+        font-size: 21px;
+    }
+    .section10 .btn .btn-big {
         font-size: 21px;
     }
 }

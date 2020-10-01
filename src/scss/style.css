@@ -22,7 +22,7 @@ button:focus {
   font-style: normal;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 770px) {
   .tbl-info__info .tbl-info__text {
     font-size: 20px;
   }
@@ -36,7 +36,7 @@ button:focus {
     height: 50vh !important;
   }
   .card .card-body .btn-small_height {
-    left: 20vw;
+    left: 4vw;
     width: 210px;
     height: 50px;
     font-size: 21px;
@@ -50,35 +50,32 @@ button:focus {
   .card-body .card__card {
     font-size: 24px;
   }
-  .section6 .tbl-info6 .tbl-info6__form {
-    height: 50vh;
-  }
   .tbl-info6 .tbl-info6__form .tbl-info6__icon_btnbottom {
-    left: 14vw;
-    top: 46vh;
+    left: 24vw;
+    top: 21vh;
   }
   .form .form-control {
     height: calc(1.5em + 1.75rem + 2px);
   }
-  .tbl-info6__icon_btnbottom .btn-small_width {
+  .form {
+    padding: 0 5px;
+  }
+  .tbl-info6__form .tbl-info6__icon_btnbottom .btn-small_width {
     padding: 10px 0;
-    width: 230px;
+    width: 245px;
     height: 50px;
     font-size: 21px;
   }
   .tbl-info6 .tbl-info6__form .tbl-info6__icon {
-    right: 27vw;
-    bottom: 44vh;
-  }
-  body .section9 {
-    height: 60vh !important;
+    right: 33vw;
+    bottom: 20vh;
   }
   body .section10 {
-    height: 70vh !important;
+    height: 60vh !important;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   footer .logo-bar__tel {
     display: -ms-grid;
     display: grid;
@@ -101,7 +98,7 @@ button:focus {
     margin: 8vh 0 0 0;
   }
   .tbl-info6__form .tbl-info6__icon {
-    right: 34vw;
+    right: 36vw;
     bottom: 20vh;
   }
   .section6 .tbl-info6__icon img {
@@ -119,7 +116,7 @@ button:focus {
     height: 48px;
   }
   .tbl-info6__form .tbl-info6__icon_btnbottom {
-    left: 27vw;
+    left: 30vw;
   }
   .layout-section2 .tbl-info5 {
     -ms-grid-columns: 1fr 1fr;
@@ -127,7 +124,7 @@ button:focus {
     grid-gap: 25px;
   }
   .card-body .btn-small_height {
-    left: 6vw;
+    left: 14vw;
   }
   .card .card-body {
     margin: 15px 10px;
@@ -160,7 +157,7 @@ button:focus {
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   body .section3 {
-    height: 55vh;
+    height: 65vh;
   }
   body .section4 {
     padding: 0;
@@ -179,17 +176,17 @@ button:focus {
     margin: 15px 10px;
   }
   .section6 .tbl-info6__form {
-    margin: 5vh 0 0 0;
+    margin: 11vh 0 0 0;
   }
   .section6 .form .form-row {
     height: 15vh;
     padding: 0 15px;
   }
   .form .form-control {
-    height: calc(1.5em + 1.75rem + 2px);
+    height: calc(1.5em + 0.75rem + 2px);
   }
   .section6 .tbl-info6__icon_btnbottom {
-    top: 17vh;
+    top: 21vh;
     left: 31vw;
   }
   .tbl-info6__icon_btnbottom .btn-small_width {
@@ -198,7 +195,7 @@ button:focus {
     height: 48px;
   }
   .section6 .tbl-info6__icon img {
-    width: 85px;
+    width: 80px;
   }
   body .section7 {
     padding: 0;
@@ -207,7 +204,7 @@ button:focus {
     padding: 0 0 15px 0;
   }
   .section10 .form .form-row {
-    height: 5vh;
+    height: 6vh;
   }
 }
 
@@ -321,6 +318,9 @@ button:focus {
   .section5 .articles-header {
     max-width: 95vw;
   }
+  .tbl-info5 .card .card-body .btn-small_height {
+    left: 15vw;
+  }
   .layout-section2 .tbl-info5 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -394,7 +394,6 @@ button:focus {
   }
   body .section9 {
     max-height: none;
-    height: 80vh;
   }
   .section9 .carousel-item__text {
     font-size: 19px;
@@ -945,7 +944,7 @@ button:focus {
   height: 40px;
   position: absolute;
   bottom: 2vh;
-  left: 2vw;
+  left: 4vw;
 }
 
 .btn-small_width {
