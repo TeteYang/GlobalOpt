@@ -28,7 +28,7 @@ and (max-device-width : 731px) {
         bottom: 48vh !important;
     }
     .tbl-info6 .tbl-info6__form .tbl-info6__icon_btnbottom {
-        left: 10vw !important;
+        left: 17vw !important;
         top: 51vh !important;
     }
 }
@@ -164,8 +164,13 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-device-width : 1024px)
 and (max-device-width : 1366px) {
+    body .section6 {
+        height: 50vh;
+        margin: 10vh 0 0 0;
+    }
     body .section3 {
-        height: 65vh;
+        height: none;
+        margin: 0;
     }
     body .section4 {
         padding: 0;
@@ -184,7 +189,12 @@ and (max-device-width : 1366px) {
         margin: 15px 10px;
     }
     .section6 .tbl-info6__form {
-        margin: 11vh 0 0 0;
+        height: 24vh;
+        margin: 10vh 0 0 0;
+    }
+    .tbl-info6__form .tbl-info6__icon {
+        right: 38vw;
+        bottom: 19vh;
     }
     .section6 .form .form-row {
         height: 15vh;
@@ -194,8 +204,11 @@ and (max-device-width : 1366px) {
         height: calc(1.5em + 0.75rem + 2px);
     }
     .section6 .tbl-info6__icon_btnbottom {
-        top: 21vh;
-        left: 31vw;
+        top: 20vh;
+        left: 33vw;
+    }
+    .form .form-control {
+        height: calc(1.5em + 1.75rem + 2px);
     }
     .tbl-info6__icon_btnbottom .btn-small_width {
         padding: 10px 0;
@@ -212,12 +225,16 @@ and (max-device-width : 1366px) {
         padding: 0 0 15px 0;
     }
     .section10 .form .form-row {
-        height: 6vh;
+        height: 20vh;
     }
 }
 @media only screen
 and (min-device-width : 280px)
 and (max-device-width : 653px) {
+    body .section6 {
+        height: 85vh;
+        margin: 0;
+    }
     .form .form-control {
         height: calc(1.5em + 1.75rem + 10px);
     }
@@ -327,7 +344,7 @@ and (max-device-width : 653px) {
     }
     .tbl-info6 .tbl-info6__form {
         height: 55vh;
-        margin: 10vh 0 0 0;
+        margin: 8vh 0 0 0;
     }
     .tbl-info6__form {
         padding: 5px;
@@ -340,8 +357,8 @@ and (max-device-width : 653px) {
     }
 }
     .tbl-info6__form .tbl-info6__icon_btnbottom {
-        top: 51vh;
-        left: 11vw;
+        top: 45vh;
+        left: 7vw;
     }
     body .section7 {
         background: black;
