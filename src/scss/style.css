@@ -45,7 +45,7 @@ button:focus {
     bottom: 48vh !important;
   }
   .tbl-info6 .tbl-info6__form .tbl-info6__icon_btnbottom {
-    left: 17vw !important;
+    left: 10vw !important;
     top: 51vh !important;
   }
 }
@@ -367,7 +367,7 @@ button:focus {
     max-width: 95vw;
   }
   .tbl-info5 .card .card-body .btn-small_height {
-    left: 15vw;
+    left: 20vw;
   }
   .layout-section2 .tbl-info5 {
     -ms-grid-columns: 1fr;
@@ -385,7 +385,7 @@ button:focus {
     left: 14vw;
   }
   .tbl-info6 .tbl-info6__form {
-    height: 55vh;
+    height: 58vh;
     margin: 8vh 0 0 0;
   }
   .tbl-info6__form {
@@ -400,7 +400,7 @@ button:focus {
   }
   .tbl-info6__form .tbl-info6__icon_btnbottom {
     top: 45vh;
-    left: 7vw;
+    left: 13vw;
   }
   body .section7 {
     background: black;
