@@ -398,10 +398,6 @@ button:focus {
   .tbl-info6__form .tbl-info6__icon img {
     width: 90px;
   }
-  .tbl-info6__form .tbl-info6__icon_btnbottom {
-    top: 45vh;
-    left: 13vw;
-  }
   body .section7 {
     background: black;
   }
