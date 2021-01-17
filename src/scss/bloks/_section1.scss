@@ -3,7 +3,7 @@
     padding: 0;
 .logo-bar_location{
     display: flex;
-    padding-top: 23px; 
+    padding-top: 23px;
     justify-content: space-between;
 }
 .logo-bar{
@@ -86,4 +86,14 @@
 }}
 .navbar-expand-lg .navbar-nav .nav-link{
     padding: 0 5px;
+}
+
+.navbar__style {
+    background: rgba(46, 46, 46, 0.8);
+    position: absolute;
+    width: 60vw;
+    height: 29vh;
+    padding-top: 45px;
+    right: 245px;
+    font-size: 20px;
 }
