@@ -211,7 +211,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 }
 
-@media only screen
+@media only screen //iphone 6
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
     .section1 .info {
@@ -266,7 +266,7 @@ and (max-device-width : 667px) {
     }
 }
 
-@media only screen
+@media only screen //iphone 6+
 and (min-device-width : 414px)
 and (max-device-width : 736px) {
     .section2 {
@@ -293,4 +293,16 @@ and (max-device-width : 736px) {
         font-size: 19px !important;
         padding: 10px;
     }
+}
+
+@media only screen //iphone 5/5s
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+@media only screen //iphone 2G-4S
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
 }
