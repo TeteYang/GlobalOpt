@@ -12,8 +12,7 @@
         font-size: 45px;
     }
     .section2 {
-        min-height: 0 !important;
-        height: 60vh;
+        min-height: 70vh;
     }
     .layout-section2 .tbl-info5 {
         display: grid;
@@ -66,11 +65,11 @@
         width: 100px;
     }
     .tbl-info6 .tbl-info6__form {
-        height: 28vh;
+        min-height: 28vh;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 280px) and (max-width: 1200px) {
     .tbl-info8 .tbl-info8__grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -78,6 +77,8 @@
     .section1 .logo-bar__tel {
         display: flex !important;
         margin: 2vh 0 0 0 !important;
+        flex-direction: column;
+        gap: 10px;
     }
     .navbar {
         flex-direction: column;
@@ -94,7 +95,7 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .tbl-info6 .tbl-info6__form {
-        height: 20vh;
+        min-height: 20vh;
     }
     .tbl-info6__form .tbl-info6__icon img {
         width: 86px;
@@ -108,10 +109,6 @@
 }
 
 @media (max-width: 575.98px), (min-width: 576px) and (max-width: 991.98px) {
-    .section2 {
-        min-height: 0 !important;
-        height: 84vh !important;
-    }
     body .section2 .tbl-info {
         grid-template-columns: 1fr;
     }
@@ -131,7 +128,7 @@
         margin: 0 0 5vh 0 !important;
     }
     .tbl-info6 .tbl-info6__form {
-        height: 27vh;
+        min-height: 27vh;
     }
     .tbl-info6__form .tbl-info6__icon img {
         width: 86px;
@@ -140,11 +137,13 @@
         padding: 0;
     }
     .tbl-info8 .tbl-info8__grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 0 25px;
     }
     .tbl-info8  .tbl-info8__grid_three {
-        grid-template-columns: 1fr 1fr;
-        gap: 4vh;
+        max-width: 85vw;
+        grid-template-columns: 1fr;
+        gap: 25px;
     }
     .logo-bar_location {
         flex-direction: column;
@@ -165,12 +164,6 @@
         left: 33vw;
     }
 }
-@media (max-width: 575.98px) {
-    .section2 {
-        min-height: 0!important;
-        height: 90vh!important;
-    }
-}
 
 @media only screen //ipad
 and (min-device-width : 768px)
@@ -188,11 +181,7 @@ and (max-device-width : 1024px) {
         top: 4vh;
     }
     .tbl-info6 .tbl-info6__form {
-        height: 30vh;
-    }
-    .section2 {
-        min-height: 0!important;
-        height: 110vh!important;
+        min-height: 30vh;
     }
     .tbl-info2__cards .tbl-info2__info {
         min-height: 55vh;
@@ -203,17 +192,13 @@ and (max-device-width : 1024px) {
 and (min-device-width : 1024px)
 and (max-device-width : 1366px)
 and (-webkit-min-device-pixel-ratio: 1) {
-    .section2 {
-        min-height: 0!important;
-        height: 80vh!important;
-    }
     .tbl-info6 .tbl-info6__form {
         height: 25vh;
     }
 }
 
 @media only screen //iphone 6
-and (min-device-width : 375px)
+and (min-device-width : 280px)
 and (max-device-width : 667px) {
     .section1 .info {
         font-size: 17px !important;
@@ -225,16 +210,12 @@ and (max-device-width : 667px) {
     .section1 .paragraph-big-white {
         font-size: 20px !important;
     }
-    .section2 {
-        min-height: 0!important;
-        height: 289vh!important;
-    }
     .tbl-info2__cards .tbl-info2__info {
         max-height: none;
         height: 75vh;
     }
     .tbl-info6 .tbl-info6__form {
-        height: 65vh;
+        min-height: 85vh;
     }
     .tbl-info6__form .tbl-info6__icon_btnbottom {
         left: 15vw;
@@ -249,9 +230,6 @@ and (max-device-width : 667px) {
     .layout-section4 {
         max-width: 90vw !important;
     }
-    .form-layout {
-        height: 100vh;
-    }
     .form .form-row {
         gap: 12px !important;
         margin: 35px 0 0 0;
@@ -265,14 +243,19 @@ and (max-device-width : 667px) {
     .btn {
         margin: 25px 0 0 0;
     }
+    .logo-bar__text {
+        text-align: center;
+    }
+    .logo-bar__tel {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
 @media only screen //iphone 6+
 and (min-device-width : 414px)
 and (max-device-width : 736px) {
-    .section2 {
-        height: 235vh!important;
-    }
     .layout-section2 {
         max-width: 85vw!important;
     }
@@ -306,4 +289,22 @@ and (max-device-width : 568px) {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .section1 .logo-bar__tel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6 {
+        min-height: 140vh;
+    }
+    .section10 {
+        min-height: 140vh;
+    }
+    .form-layout {
+        min-height: 140vh;
+    }
 }
