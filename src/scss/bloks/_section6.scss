@@ -7,17 +7,18 @@
     height: 24vh;
     border: 2px solid #0000002e;
     margin: 12vh 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 &__icon{
     position: absolute;
-    right: 36vw;
-    bottom: 17vh;
     z-index: 350;
     background-color: white;
     &_btnbottom{
         position: absolute;
         top: 21vh;
-        left: 34vw;
+        width: 100%;
+        text-align: center;
     }
     img{
         width: 80px;
