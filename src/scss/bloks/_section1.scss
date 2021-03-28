@@ -1,6 +1,7 @@
 .section1{
     background: url("../img/bg.png") no-repeat;
     padding: 0;
+    position: relative;
 .logo-bar_location{
     display: flex;
     padding-top: 23px;
@@ -89,11 +90,26 @@
 }
 
 .navbar__style {
-    background: rgba(46, 46, 46, 0.8);
+    background: rgba(46, 46, 46, 0.9);
     position: absolute;
-    width: 60vw;
-    height: 29vh;
+    width: 100%;
     padding-top: 45px;
-    right: 245px;
-    font-size: 20px;
+    z-index: 1;
+    height: 100%;
+    &_item-grid {
+        width: 70vw;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+        gap: 25px;
+        font-size: 25px;
+    }
+}
+.cross {
+    cursor: pointer;
+    color: #ed745d;
+    font-size: 30px;
+    position: relative;
+    left: 25px;
+    bottom: 23px;
 }

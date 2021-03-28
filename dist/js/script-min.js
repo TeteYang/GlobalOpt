@@ -1,0 +1,1 @@
+const cross=document.querySelector(".cross"),item=document.querySelector(".item");cross.addEventListener("click",()=>{item.style.display="none"});
